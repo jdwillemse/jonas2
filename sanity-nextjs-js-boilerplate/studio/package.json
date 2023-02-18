@@ -1,0 +1,30 @@
+{
+  "name": "sanitynextjsjsboilerplate",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Jakub Siwiec <jakub.siwiec@svcais.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build ../public/studio -y",
+    "deploy": "sanity deploy"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.22.3",
+    "@sanity/core": "^2.22.3",
+    "@sanity/default-layout": "^2.22.4",
+    "@sanity/default-login": "^2.22.3",
+    "@sanity/desk-tool": "^2.22.3",
+    "@sanity/vision": "^3.2.6",
+    "prop-types": "^15.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "studio": "^0.13.5",
+    "styled-components": "^5.3.3"
+  }
+}
