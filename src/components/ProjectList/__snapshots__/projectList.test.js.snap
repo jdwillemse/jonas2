@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectList filters the list based on the route: playstation 1`] = `"Twitch"`;
+
+exports[`ProjectList filters the list based on the route: playstation 2`] = `"adidas"`;
+
+exports[`ProjectList filters the list based on the route: playstation 3`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 4`] = `"PlayStation"`;
+
+exports[`ProjectList filters the list based on the route: playstation 5`] = `"PlayStation"`;
+
+exports[`ProjectList renders a list of projects 1`] = `
+<div>
+  <section
+    class="wrap"
+  >
+    <div
+      class="masonry"
+      data-test-id="masonry-wrap"
+    >
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/twitch-creators-campaign"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAACAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAfEAAABQQDAAAAAAAAAAAAAAAAAQIDBAUGERITITH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABgRAAIDAAAAAAAAAAAAAAAAAAACAzEy/9oADAMBAAIRAxEAPwCHX9UJjrVr8suQvWiR0p2cUeCI14Iu/AABQ9iSaP/Z); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              Twitch Creators Campaign
+            </h1>
+            <div
+              class="client"
+            >
+              Twitch
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/adidas-futurecraft-loop"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 70.71428571428572% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAADAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAj/xAAdEAACAgMAAwAAAAAAAAAAAAABAgMRAAQFEzFB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwCjOHweZpQbCQaoKybEkp8rtJTMbNFiaF+lFAfAMYxirF//2Q==); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              [FUTURECRAFT] Loop
+            </h1>
+            <div
+              class="client"
+            >
+              adidas
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/ps4-this-could-be-you"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAADAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAfEAACAQQCAwAAAAAAAAAAAAABAgQAAwURBxIhIpH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABoRAAICAwAAAAAAAAAAAAAAAAABAgMSITL/2gAMAwEAAhEDEQA/AKDxS97J4GdJyEqXJvnIyEDXZFxuqq3VVXZ9VAA8DQ+0pSo7e2BCTxWz/9k=); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              This Could Be You
+            </h1>
+            <div
+              class="client"
+            >
+              PlayStation
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/detroit-how-far-would-you-go-to-be-free"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 56.25% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAACAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAABBAIDAQAAAAAAAAAAAAAEAAECAwUGERIiMf/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECMf/aAAwDAQACEQMRAD8Ahpe7bXjzixwNmzgo8b7OtVJ9sIt6f4zS4REV9tkX/9k=); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              How far would you go to be free?
+            </h1>
+            <div
+              class="client"
+            >
+              PlayStation
+            </div>
+          </a>
+        </article>
+      </div>
+      <div
+        class="item"
+      >
+        <article
+          class="wrap"
+        >
+          <a
+            class="link"
+            href="/gt-sport-where-the-world-comes-to-race"
+          >
+            <div
+              class="imageWrap"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+                />
+                <img
+                  alt=""
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAEAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIFAwQRBgcSIUH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AKftxGQ91pGzNaBh3GmXUml1oxx4tOB2c+IiKbLeCn//2Q==); background-position: 0% 0%;"
+                />
+                <noscript />
+              </span>
+            </div>
+            <h1
+              class="title"
+            >
+              Where the World Comes to Race
+            </h1>
+            <div
+              class="client"
+            >
+              PlayStation
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+`;

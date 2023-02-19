@@ -3,10 +3,11 @@ import {PreviewSuspense} from 'next-sanity/preview'
 
 import {LazyPreviewPage} from '../page/LazyPreviewPage'
 import {LoadingScreen} from '../page/LoadingScreen'
-import {PageScreen} from '../page/PageScreen'
-import {PAGE_DATA_QUERY} from '../page/query'
+import {CLIENT_COLLECTION_QUERY, PAGE_DATA_QUERY, PROJECT_COLLECTION_QUERY} from '../page/query'
 import {PageData} from '../page/types'
 import {client} from '../sanity/client'
+import Layout from '../components/Layout'
+import ProjectList from '../components/ProjectList'
 
 interface PageProps {
   data: PageData | null
@@ -39,11 +40,13 @@ export const getStaticProps: GetStaticProps<PageProps, Query, PreviewData> = asy
     }
   }
 
-  const data = await client.fetch<PageData | null>(PAGE_DATA_QUERY, params)
+  const clientCollection = await client.fetch<PageData | null>(CLIENT_COLLECTION_QUERY, params)
+  const projectCollection = await client.fetch<PageData | null>(PROJECT_COLLECTION_QUERY, params)
 
   return {
     props: {
-      data,
+      clientCollection,
+      projectCollection,
       preview,
       slug: params?.slug || null,
       token: null,
@@ -52,7 +55,7 @@ export const getStaticProps: GetStaticProps<PageProps, Query, PreviewData> = asy
 }
 
 export default function Page(props: PageProps) {
-  const {data, preview, slug, token} = props
+  const {preview, slug, token} = props
 
   if (preview) {
     return (
@@ -62,5 +65,9 @@ export default function Page(props: PageProps) {
     )
   }
 
-  return <PageScreen data={data} />
+  return (
+    <Layout {...props}>
+      <ProjectList {...props} />
+    </Layout>
+  )
 }

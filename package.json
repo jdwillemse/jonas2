@@ -1,33 +1,49 @@
 {
-  "private": true,
   "name": "sanity-template-nexjs",
   "version": "1.0.0",
-  "main": "package.json",
-  "license": "MIT",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "type-check": "tsc"
-  },
+  "private": true,
   "keywords": [
     "sanity",
     "template",
     "nextjs"
   ],
+  "license": "MIT",
+  "main": "package.json",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
   "dependencies": {
     "@next/font": "^13.1.2",
+    "@portabletext/react": "^2.0.1",
     "@sanity/demo": "^1.0.1",
     "@sanity/icons": "^2.2.2",
     "@sanity/ui": "^1.0.14",
     "@sanity/vision": "^3.2.4",
     "@tailwindcss/typography": "^0.5.9",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
     "next": "^13.1.2",
     "next-sanity": "^4.1.0",
+    "plaiceholder": "^2.5.0",
     "react": "^18.2.0",
+    "react-cookie-consent": "^8.0.1",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
+    "react-masonry-css": "^1.0.16",
+    "react-modal": "^3.16.1",
     "sanity": "^3.2.4",
+    "sass": "^1.58.3",
     "styled-components": "^5.3.6",
     "suspend-react": "^0.0.9"
   },
@@ -48,11 +64,5 @@
     "prettier-plugin-tailwindcss": "^0.2.1",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4"
-  },
-  "prettier": {
-    "semi": false,
-    "printWidth": 100,
-    "bracketSpacing": false,
-    "singleQuote": true
   }
 }
